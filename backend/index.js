@@ -16,7 +16,7 @@ import geminiResponse from "./gemini.js";
 const app = express()
 app.use(cors({
     // telling the server where the request will come from i.e. the front-end URL
-    origin: "http://localhost:5173",
+    origin: "https://virtual-assistant-7klc.onrender.com",
     credentials: true
 }))
 
