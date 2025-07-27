@@ -41,9 +41,9 @@ export const signUp = async (req, res) => {
             // life time of the cookie, after 7 days it will get automatically deleted by browser
             maxAge : 7*24*60*60*1000,
             // browser sends this cookie to the same domain that set the cookie (no other domain)
-            sameSite: "strict",
+            sameSite: "None",
             // done during local development
-            secure: false
+            secure: true
         })
 
         return res.status(201).json(user);
@@ -82,9 +82,9 @@ export const Login = async (req, res) => {
             // life time of the cookie, after 7 days it will get automatically deleted by browser
             maxAge : 7*24*60*60*1000,
             // browser sends this cookie to the same domain that set the cookie (no other domain)
-            sameSite: "strict",
+            sameSite: "None",
             // done during local development
-            secure: false
+            secure: true
         })
 
         return res.status(201).json(user);
