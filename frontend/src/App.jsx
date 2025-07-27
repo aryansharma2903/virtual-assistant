@@ -21,7 +21,7 @@ import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
 import { userDataContext } from './context/userContext'
 import { Navigate } from 'react-router-dom'
-import Customize from './pages/customize'
+import Customize from './pages/Customize'
 import Customize2 from './pages/Customize2'
 import Home from './pages/Home'
 
