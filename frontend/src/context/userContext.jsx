@@ -9,7 +9,7 @@ import axios from "axios"
 // The children prop is a special prop that React automatically provides to components. 
 // It represents whatever is rendered between the opening and closing tags of your component when you use it in JSX.
 function userContext({children}) {
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://virtualassistant-backend-mcqt.onrender.com"
     const [userData, setUserData] = useState(null);
     const [frontendImage, setFrontendImage] = useState(null);
     const [backendImage, setBackendImage] = useState(null);
